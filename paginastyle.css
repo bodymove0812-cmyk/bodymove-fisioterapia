@@ -1,0 +1,329 @@
+/* Botón BodyMove */
+
+.btn-bodymove{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 220px;
+    height: 50px;
+
+    background-color: #0d6efd;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: all .3s ease;
+
+    cursor: pointer;
+}
+
+.btn-bodymove:hover{
+    background-color: #000;
+    color: white;
+}
+
+.btn-bodymove:active{
+    background-color: #000;
+    transform: scale(.97);
+}
+/* ================= PLANES ================= */
+
+.tabla-bodymove{
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.10);
+
+    background:white;
+
+}
+
+.tabla-bodymove th{
+
+    vertical-align:middle;
+
+    font-weight:700;
+
+}
+
+.tabla-bodymove td{
+
+    vertical-align:middle;
+
+    padding:16px;
+
+}
+
+.tabla-bodymove tbody tr:hover{
+
+    background:#f5f9ff;
+
+    transition:.3s;
+
+}
+
+.alert{
+
+    border-radius:15px;
+
+    font-size:17px;
+
+}
+/* ================= TABLA BODYMOVE ================= */
+
+.tabla-bodymove{
+
+    border:3px solid #000;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+    background:#fff;
+
+}
+
+.tabla-bodymove thead th{
+
+    font-size:20px;
+    font-weight:700;
+    padding:18px;
+    border:2px solid #000 !important;
+
+}
+
+.tabla-bodymove tbody th{
+
+    font-size:18px;
+    font-weight:700;
+    background:#f8f9fa;
+    border:2px solid #000 !important;
+
+}
+
+.tabla-bodymove td{
+
+    font-size:17px;
+    font-weight:500;
+    padding:18px;
+    border:2px solid #000 !important;
+    vertical-align:middle;
+
+}
+
+.tabla-bodymove tbody tr:hover{
+
+    background:#eef5ff;
+    transition:.3s;
+
+}
+/* ================= NOTA ================= */
+
+.alert{
+
+    border:3px solid #000 !important;
+    border-radius:18px;
+    padding:22px;
+
+    font-size:18px;
+    font-weight:500;
+
+    line-height:1.8;
+
+    background:#f8f9fa;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+}
+
+.alert strong{
+
+    font-size:20px;
+    font-weight:700;
+    color:#0d6efd;
+
+}
+#planes .lead{
+
+    font-size: 1.25rem;
+
+    font-weight: 600;
+
+    line-height: 1.9;
+
+    color: #343a40;
+
+    text-align: justify;
+
+}
+#planes h2{
+
+    font-size: 2.4rem;
+
+    font-weight: 800;
+
+    margin-bottom: 25px;
+
+}
+#planes strong{
+
+    font-weight: 800;
+
+    color: #0d6efd;
+
+}
+/*================== PROGRAMAS ==================*/
+
+#programas{
+
+    background:#f8fbff;
+
+    border-radius:25px;
+
+}
+
+.categoria-card{
+
+    color:#0d6efd;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.titulo-card{
+
+    margin-top:12px;
+
+    margin-bottom:18px;
+
+    font-size:26px;
+
+    font-weight:700;
+
+}
+
+.tarjeta-bodymove{
+
+    border:2px solid #000;
+
+    border-radius:20px;
+
+    transition:.35s;
+
+}
+
+.tarjeta-bodymove:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+}
+
+.tarjeta-bodymove p{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    font-weight:500;
+
+}
+
+.tarjeta-bodymove ul{
+
+    margin-top:20px;
+
+    padding-left:22px;
+
+}
+
+.tarjeta-bodymove li{
+
+    margin-bottom:12px;
+
+    font-size:16px;
+
+    font-weight:500;
+
+}
+/*================== VIDEO ==================*/
+
+#video-bodymove{
+
+    margin-top:40px;
+    margin-bottom:50px;
+
+}
+
+#video-bodymove h2{
+
+    font-size:2.3rem;
+    font-weight:800;
+
+}
+
+#video-bodymove p{
+
+    max-width:850px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    font-weight:500;
+
+    line-height:1.9;
+
+    text-align:center;
+
+}
+
+.video-bodymove{
+
+    width:100%;
+
+    max-width:360px;
+
+    margin-top:35px;
+
+    border:3px solid #000;
+
+    border-radius:22px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.20);
+
+    transition:.35s;
+
+}
+
+.video-bodymove:hover{
+
+    transform:scale(1.03);
+
+}
+.frase-bodymove{
+
+    margin-top:25px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:#0d6efd;
+
+    text-align:center;
+
+}
